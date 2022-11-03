@@ -1,0 +1,5 @@
+db.collection.insertOne( { _id: 10, calc: NumberLong("2090845886852") } )
+db.collection.updateOne( { _id: 10 },
+                      { $set:  { calc: NumberLong("2555555000000") } } )
+db.collection.updateOne( { _id: 10 },
+                      { $inc: { calc: NumberLong("5") } } )
